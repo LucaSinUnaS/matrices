@@ -2,6 +2,7 @@
 
 require ('functions.php');
 
+//Cuantas columnas y filas tiene la matriz que queres crear
 $columns = 4;
 $rows = 5;
 $matriz = [[]];
@@ -26,6 +27,8 @@ $matrizBien[2][2] = 0;
 $matrizBien[2][3] = 0;
 $matrizBien[2][4] = 0;
 $matrizBien[2][5] = 1;
+
+//Crea tu matriz acá abajo, el primer numero indica columnas, el segundo filas
 
 $matrizRandom[0][0] = 2;
 $matrizRandom[0][1] = 1;
